@@ -1,5 +1,5 @@
 import discord
-
+import os 
 client = discord.Client()
 
 @client.event
@@ -32,4 +32,4 @@ async def on_message(message):
        
                                                     
 
-client.run('token')
+client.run(os.environ['token'])
