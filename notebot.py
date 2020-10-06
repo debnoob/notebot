@@ -29,7 +29,9 @@ async def on_message(message):
        await message.channel.send(file=discord.File('Screenshot from 2020-10-06 10-28-00.png'))
     if message.content.startswith('kolbe reaction'):
        await message.channel.send(file=discord.File('Screenshot from 2020-10-06 10-33-56.png'))
-       
-                                                    
+    if message.content.startswith('phase angle'):
+       await message.channel.send(file=discord.File('Screenshot from 2020-10-06 16-37-18.png'))   
+    if message.content.startswith('wave optics fi'):
+       await message.channel.send(file=discord.File('Screenshot from 2020-10-06 16-34-45.png'))                                                   
 
 client.run(os.environ['token'])
