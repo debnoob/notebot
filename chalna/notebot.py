@@ -34,4 +34,4 @@ async def on_message(message):
     if message.content.startswith('wave optics fi'):
        await message.channel.send(file=discord.File('Screenshot from 2020-10-06 16-34-45.png'))                                                   
 
-client.run(os.environ['token'])
+client.run(os.environ['NzMzNjA5MTcyOTY4NjY5MzA0.XxFoyA.kq-zF4GfKqvt1zGonHpoYF7mRxo'])
